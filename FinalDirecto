@@ -1,0 +1,18 @@
+digraph {
+	node [shape=circle]
+	C0
+	node [shape=circle]
+	B0
+	node [shape=ellipse]
+	A0
+	node [shape=doublecircle]
+	D0
+	A0 -> A0 [label=b]
+	A0 -> B0 [label=a]
+	B0 -> C0 [label=b]
+	B0 -> B0 [label=a]
+	C0 -> D0 [label=b]
+	C0 -> B0 [label=a]
+	D0 -> A0 [label=b]
+	D0 -> B0 [label=a]
+}
